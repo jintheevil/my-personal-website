@@ -1,0 +1,29 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+:root {
+    --primary: #fafafa;
+    --secondary: #969696;
+    --accent: #010048;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: var(--accent)
+}
+
+h1 {
+    color: var(--primary);
+}
+
+span {
+    color: var(--primary);
+}
+
+.emptySpace {
+    height: 80px;
+}
